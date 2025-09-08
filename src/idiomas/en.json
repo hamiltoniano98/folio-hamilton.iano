@@ -1,0 +1,30 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "skills": "Skills",
+      "experience": "Experience",
+      "education": "Education",
+      "languages": "Languages",
+      "contact": "Contact"
+    },
+    "hero": {
+    "greeting": "Hi, I'm Pablo",
+    "subtitle": "FullStack Developer",
+    "cta": "Contact Me"
+  },
+  "about": {
+    "description": "Full Stack Developer with 3 years of experience in designing, developing, and implementing web applications and APIs. Specialized in modern technologies such as React, Node.js, Python, and PHP, with a focus on building scalable, efficient, and user-centered solutions. Experienced in system integration, process optimization, and collaborative work environments under agile methodologies. Seeking to contribute to challenging projects where I can apply my technical skills and continue growing professionally."
+  }
+,
+    "skills": {
+      "description": "Here are some of the technologies I work with regularly.",
+      "languages":"Languages",
+      "web":"Web",
+      "db":"Database"
+      
+    }
+ 
+  
+  }
+  

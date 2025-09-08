@@ -1,0 +1,26 @@
+{
+    "navbar": {
+      "home": "Inicio",
+      "about": "Sobre mí",
+      "skills": "Habilidades",
+      "experience": "Experiencia",
+      "education": "Formación",
+      "languages": "Idiomas",
+      "contact": "Contacto"
+    },
+    "hero": {
+    "greeting": "Hola, soy Pablo",
+    "subtitle": "Desarrollador FullStack ",
+    "cta": "Contáctame"
+  },
+  "about": {
+    "description": "Desarrollador Full Stack con 3 años de experiencia en el diseño, desarrollo e implementación de aplicaciones web y APIs.Especializado en tecnologías modernas como React, Node.js, Python y PHP, con un enfoque en la creación de soluciones escalables, eficientes y centradas en el usuario. Experiencia en la integración de sistemas, optimización de procesos y trabajo en entornos colaborativos bajo metodologías ágiles. Busco contribuir en proyectos desafiantes donde pueda aplicar mis habilidades técnicas y seguir creciendo profesionalmente. "
+  },
+  "skills": {
+    "description": "Estas son algunas de las tecnologías con las que trabajo habitualmente.",
+    "languages":"Lenguajes",
+    "web":"Web",
+    "db":"Base de datos"
+  }
+  }
+  
