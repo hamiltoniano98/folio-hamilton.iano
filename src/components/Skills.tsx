@@ -4,7 +4,6 @@ import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaPhp, FaJ
 import MyIcon from '../assets/icons8-django.svg?react'
 import MyIcon1 from '../assets/fastapi.svg?react'
 import MyIcon2 from '../assets/icons8-mysql.svg?react'
-import MyIcon3 from '../assets/mongodb-original-wordmark-logo.svg?react'
 
 
 const skills = [
