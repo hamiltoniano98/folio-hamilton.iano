@@ -21,6 +21,35 @@
     "languages":"Lenguajes",
     "web":"Web",
     "db":"Base de datos"
+  },
+
+ "experience": {
+    "items": [
+      {
+        "role": "Desarrollador Web freelancer",
+        "company": "Independiente",
+        "period": "2022 – Presente",
+        "description": "Desarrollo de aplicaciones web utilizando tecnologías como React, Node.js, Python y PHP. Creación de APIs RESTful para integración con sistemas externos y servicios de terceros. Diseño y mantenimiento de bases de datos relacionales (MySQL, PostgreSQL) y no relacionales como MongoDB. Implementación de sistemas de autenticación y autorización en entornos web seguros. Colaboración en equipos multidisciplinarios bajo metodologías ágiles. Recientemente explorando funciones impulsadas por inteligencia artificial para mejorar la experiencia del usuario y automatizar procesos de toma de decisiones."
+      }
+    ]
+  },
+  "languages": {
+    "items": [
+      {
+        "name": "Español",
+        "level": "Dominio nativo"
+      },
+      {
+        "name": "Inglés",
+        "level": "Dominio profesional"
+      }
+    ]
+  },
+  "contact": {
+    "description": "No dudes en contactarme para colaboraciones, oportunidades freelance o simplemente para conectar profesionalmente."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
   }
   }
   

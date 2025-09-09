@@ -23,8 +23,36 @@
       "web":"Web",
       "db":"Database"
       
-    }
- 
-  
+    },
+    
+      "experience": {
+    "items": [
+      {
+        "role": "Freelance Web Developer",
+        "company": "Self-employed",
+        "period": "2022 – Present",
+        "description": "Design and development of web applications using technologies such as React, Node.js, Python, and PHP. Creation of RESTful APIs for integration with external systems and third-party services. Management of relational databases (MySQL, PostgreSQL) and non-relational databases like MongoDB. Implementation of authentication and authorization systems in secure web environments. Collaboration with multidisciplinary teams under agile methodologies. Recently exploring AI-powered features to enhance user experience and automate decision-making processes."
+      }
+    ]
+  },
+  "languages": {
+    "items": [
+      {
+        "name": "Spanish",
+        "level": "Native proficiency"
+      },
+      {
+        "name": "English",
+        "level": "Professional working proficiency"
+      }
+    ]
+  },
+  "contact": {
+    "description": "Feel free to reach out for collaborations, freelance opportunities, or just to connect professionally."
+  },
+  "footer": {
+    "rights": "All rights reserved."
   }
+    }
+
   

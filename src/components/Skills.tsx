@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJsSquare, FaPython, FaPhp, FaJava, FaLaravel } from 'react-icons/fa'
-import { FaBaseball } from 'react-icons/fa6'
 import MyIcon from '../assets/icons8-django.svg?react'
 import MyIcon1 from '../assets/fastapi.svg?react'
 import MyIcon2 from '../assets/icons8-mysql.svg?react'
+import MyIcon3 from '../assets/mongodb-original-wordmark-logo.svg?react'
 
 
 const skills = [
@@ -30,7 +30,7 @@ const tech=[
 const db = [
 
     {name:'MySQL',icon:<MyIcon2/>},
-    { name: 'MongoDB', icon: <FaJsSquare className="text-yellow-500" /> },
+    { name: 'MongoDB', icon: <img width="32" height="32" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC1klEQVR4nM3X3U9SYQDH8eeira3V6q61brzxrrv+gy5I1CO+gKiJ2nwJdL5VImpy5BC9bCqwHAKHlwXGGCPfxovs4EhtRmR1Uze9XHRRV92Uq61UnvbYdBLngbWdc+C3fe8/O3BeHgA42GhIbXC9elQKimE25t7pBlftbx1DvSi0BdyNkiVNrrpfxIwISudk0JK09hQMY3pmOit3VO8gDKrR1whl3vo0/ZwuKwio1dOwfYBBKfwKKHaWwxZ/y44n5bkgKGZwsTdxFINqC7Ttg1CqhZ5t25bthCAYKkZdlFguZ2BQHcH2QxDKEDesCQJq9zV//ReDujbflQEi3FXQkXSIeMXoY/pLxEz21UGpFpUZIJQ6rP7MK6g70PGRDYPqWezOAqHsSbuEN1D1rDiNA/Uu9bKCJhjda14wVIzswmFQA6F+VpDUK0vzcsf1BVUvc4FuhAdZQSjLpnWAc5DiofxHLtBQ5CYWRDH6JOcgGV21mwukjgxhQehByTlIYinDYlCalWEsqNHXtMcp5v7ToVO5MKix2AgWVO6qgIlE4hhnIDJBluQDjTNjWBAq8CZwkjOQMWE8kw+kZW4JB0Jje6EebYLRYjF1HmkacL36PHeZLk5iQZ3Bzp+cg5T+q19ygfSrE1jQSHT0A+cgbXTMmAt0O44HmdZNVs5B5nfm4zVW/MtVx7D/ZOi7iLcjUv9j1db/Pqk1Ec0nwNem16bPVc+KWUH9y31ZmApXJaRTNAH4nGb5eoAN1BXM/IRFjce0b0EhjkDEjAi2+lszMM0+xa5gx+up+NR5GU3sHWAkFjFUBpUZf2Tbpq0DCLk7DFlWYy3fv+vkdgkkQ3/fZZVuApo3HkwLijmKktoqYafzCnSGJ2Gtpw7ObbrXQSFHPaFKJ53Dez6vAa6mFqZAMczvM76fD5p3QLFseZ52R0L276BYFl5yjURDjm+FdhwuFvGKmBUPJ8fmP3l2evhXCCAdAAAAAElFTkSuQmCC" alt="external-mongodb-a-cross-platform-document-oriented-database-program-logo-shadow-tal-revivo"/> },
 
   ]
 
