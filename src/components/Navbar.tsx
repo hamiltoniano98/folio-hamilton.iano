@@ -1,26 +1,12 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 
 const Navbar: React.FC = () => {
   const { t, i18n } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
-  const [theme, setTheme] = useState<'light' | 'dark'>('light')
 
-  useEffect(() => {
-    const storedTheme = localStorage.getItem('theme') as 'light' | 'dark' | null
-    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    const initialTheme = storedTheme || (prefersDark ? 'dark' : 'light')
-    setTheme(initialTheme)
-    document.documentElement.classList.toggle('dark', initialTheme === 'dark')
-  }, [])
-
-  const toggleTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light'
-    setTheme(newTheme)
-    localStorage.setItem('theme', newTheme)
-    document.documentElement.classList.toggle('dark', newTheme === 'dark')
-  }
+ 
 
   const toggleMenu = () => setIsOpen(!isOpen)
 
@@ -28,7 +14,7 @@ const Navbar: React.FC = () => {
     i18n.changeLanguage(lng)
   }
 
-  const navItems = ['home', 'about', 'skills', 'experience', 'education', 'languages', 'contact']
+  const navItems = ['home', 'about', 'skills', 'experience', 'languages', 'contact']
 
   return (
     <nav className="bg-white dark:bg-gray-900 shadow fixed w-full z-50">
@@ -49,11 +35,7 @@ const Navbar: React.FC = () => {
               </a>
             </li>
           ))}
-          <li>
-            <button onClick={toggleTheme}>
-              {theme === 'light' ? '🌙' : '🌞'}
-            </button>
-          </li>
+      
           <li>
             <button onClick={() => changeLanguage('es')} className="ml-2 hover:text-blue-600">🇪🇸</button>
             <button onClick={() => changeLanguage('en')} className="ml-1 hover:text-blue-600">🇺🇸</button>
@@ -76,7 +58,6 @@ const Navbar: React.FC = () => {
             </li>
           ))}
           <li className="flex justify-center space-x-4 pt-2">
-            <button onClick={toggleTheme}>{theme === 'light' ? '🌙' : '🌞'}</button>
             <button onClick={() => changeLanguage('es')}>🇪🇸</button>
             <button onClick={() => changeLanguage('en')}>🇺🇸</button>
           </li>
